@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a Website</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/da05a59f3a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="profile.html">
+            <img src="image/logo.png" class="logo" alt="Logo">
+            </a>    
+            <ul>
+                <li><img src="image/notification.png" alt="Notifications"></li>
+                <li><img src="image/inbox.png" alt="Inbox"></li>
+                <li><img src="image/video.png" alt="Video"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="image/search.png" alt="Search Icon">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingMenuToggle()">
+                <img src="image/cafe.png.jpg" >
+            </div>
+        </div>
+         <!-- setting menu -->
+
+        <div class="setting-menu">
+            <div id="dark-btn" ">
+            <span></span>
+        </div>
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="image/cafe.png.jpg" ">
+                    <div>
+                        <p>khem</p>
+                        <a href="profile.html"> See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+            <div class="user-profile">
+                    <img src="image/feedback.png" >
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#"> Help us to improve new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="image/setting.png"  class="setting-icon">
+                    <a href="#"> setting & privacy <img src="image/arrow.png" 
+                        width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="image/help.png"  class="setting-icon">
+                    <a href="#"> setting & Suppport <img src="image/arrow.png" 
+                        width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="image/display.png"  class="setting-icon">
+                    <a href="#"> Display & Accessibility <img src="image/arrow.png" 
+                        width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="image/logout.png"  class="setting-icon">
+                    <a href="#"> Logout <img src="image/arrow.png" 
+                        width="10px"></a>
+                </div>
+
+            </div>
+            
+        </div>
+
+
+
+
+    </nav>
+
+    <div class="container">
+        <!-- Left side bar -->
+        <div class="left-side-bar">
+            <div class="imp-links">
+                <a href="#"><img src="image/news.png" alt="Latest News"> Latest News</a>
+                <a href="#"><img src="image/friends.png" alt="Friends"> Friends</a>
+                <a href="#"><img src="image/group.png" alt="Group"> Group</a>
+                <a href="#"><img src="image/marketplace.png" alt="Marketplace"> Marketplace</a>
+                <a href="#"><img src="image/watch.png" alt="Watch"> Watch</a>
+                <a href="#"> See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your shortcuts</p>
+                <a href="#"><img src="image/shortcut-1.png" alt="Web Developers"> Web Developers</a>
+                <a href="#"><img src="image/shortcut-2.png" alt="Web Design Course"> Web Design Course</a>
+                <a href="#"><img src="image/shortcut-3.png" alt="Full Stack Development"> Full Stack Development</a>
+                <a href="#"><img src="image/shortcut-4.png" alt="Website Experts"> Website Experts</a>
+            </div>
+        </div>
+
+        <!-- Main content -->
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="image/upload.png" alt="Upload Story">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="image/member-1.png" alt="Ramesh">
+                    <p>Ramesh</p>
+                </div>
+                <div class="story story3">
+                    <img src="image/member-2.png" alt="Tej">
+                    <p>Tej</p>
+                </div>
+                <div class="story story4">
+                    <img src="image/member-3.png" alt="Pawan">
+                    <p>Pawan</p>
+                </div>
+                <div class="story story5">
+                    <img src="image/member-4.png" alt="Anchit">
+                    <p>Anchit</p>
+                </div>
+            </div>
+            
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="image/cafe.png.jpg" alt="John's Profile">
+                    <div>
+                        <p>khem</p>
+                        <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, khem?"></textarea>
+                <div class="add-post-links">
+                    <a href="#"><img src="image/live-video.png" >Live Video</a>
+                    <a href="#"><img src="image/photo.png" ><Photo>Video</a>
+                    <a href="#"><img src="image/feeling.png" >Felling/Activity</a>
+                </div>
+                </div>
+            </div>
+            
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="image/cafe.png.jpg" alt="John's Profile">
+                        <div>
+                            <p>khem</p>
+                            <span> June 24 2024 ,01:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"> <i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+               
+                <p class="post-text"> I am learning <span> @webdevelopment </span> from youtube's videos!!!  <a href="#Web series"></a> <a href="#">#youtube channel</a></p>
+            <img src="image/feed-image-1.png" class="post-img">
+           <div class="post-row">
+            <div class="activity-icons">
+                <div><img src="image/like-blue.png" >
+                120</div>
+                    <div><img src="image/comments.png" >
+                        45</div>
+                        <div><img src="image/share.png" >
+                            20</div>
+
+                </div>
+                <div class="post-profile-icon">
+                    <img src="image/cafe.png.jpg" > <small>Public <i class="fa-solid fa-caret-down"></i></small>
+            </div>
+            
+           </div>  
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="image/cafe.png.jpg" alt="John's Profile">
+                        <div>
+                            <p>khem</p>
+                            <span> June 24 2024 ,01:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"> <i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+               
+                <p class="post-text">  
+                    <span> @techupdates </span> bringing you the latest trends in technology! Follow us on Facebook for more exciting content!  
+                    <a href="#TechNews"></a> <a href="#">#Innovation</a>
+                  </p>
+            <img src="image/feed-image-2.png" class="post-img">
+           <div class="post-row">
+            <div class="activity-icons">
+                <div><img src="image/like.png" >
+                120</div>
+                    <div><img src="image/comments.png" >
+                        45</div>
+                        <div><img src="image/share.png" >
+                            20</div>
+
+                </div>
+                <div class="post-profile-icon">
+                    <img src="image/cafe.png.jpg" > <small>Public <i class="fa-solid fa-caret-down"></i></small>
+            </div>
+            
+           </div>
+                
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="image/cafe.png.jpg" alt="John's Profile">
+                        <div>
+                            <p>khem</p>
+                            <span> June 24 2024 ,01:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"> <i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+               
+                <p class="post-text"> I am learning <span> @webdevelopment </span> from youtube's videos!!! These types of videos are also uploaded on facebook page !  <a href="#Web series"></a> <a href="#">#youtube channel</a></p>
+            <img src="image/feed-image-3.png" class="post-img">
+           <div class="post-row">
+            <div class="activity-icons">
+                <div><img src="image/like.png" >
+                120</div>
+                    <div><img src="image/comments.png" >
+                        45</div>
+                        <div><img src="image/share.png" >
+                            20</div>
+
+                </div>
+                <div class="post-profile-icon">
+                    <img src="image/cafe.png.jpg" > <small>Public <i class="fa-solid fa-caret-down"></i></small>
+            </div>
+            
+           </div>
+                
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="image/cafe.png.jpg" alt="John's Profile">
+                        <div>
+                            <p>khem</p>
+                            <span> June 24 2024 ,01:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"> <i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+               
+                <p class="post-text"> I am learning <span> @webdevelopment </span> from youtube's videos!!! These types of videos are also uploaded on facebook page !  <a href="#Web series"></a> <a href="#">#youtube channel</a></p>
+            <img src="image/feed-image-4.png" class="post-img">
+           <div class="post-row">
+            <div class="activity-icons">
+                <div><img src="image/like.png" >
+                120</div>
+                    <div><img src="image/comments.png" >
+                        45</div>
+                        <div><img src="image/share.png" >
+                            20</div>
+
+                </div>
+                <div class="post-profile-icon">
+                    <img src="image/cafe.png.jpg" > <small>Public <i class="fa-solid fa-caret-down"></i></small>
+            </div>
+            
+           </div>
+                
+            </div>
+            
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="image/cafe.png.jpg" alt="John's Profile">
+                        <div>
+                            <p>khem</p>
+                            <span> June 24 2024 ,01:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"> <i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+               
+                <p class="post-text"> I am learning <span> @webdevelopment </span> from youtube's videos!!! These types of videos are also uploaded on facebook page !  <a href="#Web series"></a> <a href="#">#youtube channel</a></p>
+            <img src="image/feed-image-5.png" class="post-img">
+           <div class="post-row">
+            <div class="activity-icons">
+                <div><img src="image/like.png" >
+                120</div>
+                    <div><img src="image/comments.png" >
+                        45</div>
+                        <div><img src="image/share.png" >
+                            20</div>
+
+                </div>
+                <div class="post-profile-icon">
+                    <img src="image/cafe.png.jpg" > <small>Public <i class="fa-solid fa-caret-down"></i></small>
+            </div>
+            
+           </div>
+                
+            </div>
+            <button type="button" class="Load-more-btn">Load More</button>
+        </div>
+        <!-- Right side bar -->
+        <div class="right-side-bar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#"> See All </a>
+            </div>  
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Lake Ontario Beach</p>
+                    <a href="#"> More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>June</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Lake Ontario Beach</p>
+                    <a href="#"> More Info</a>
+                </div>
+            </div>
+            
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#"> Close </a>
+            </div>  
+            <img src="image/advertisement.png" class="sidebar-ads" alt="Advertisement">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#"> Hide Chat </a>
+            </div>  
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="image/member-1.png" alt="Sita's Profile">
+                </div>
+                <p>Sita</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="image/member-2.png" alt="Ram Saud's Profile">
+                </div>
+                <p>Ram Saud</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="image/member-3.png" alt="Gita's Profile">
+                </div>
+                <p>Gita</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright 2024 - Youtube tutorials</p>
+    </div>
+    <button id="toggle-settings-btn">Toggle Settings Menu</button>
+    <script src="script.js"></script>
+</body>
+</html>
